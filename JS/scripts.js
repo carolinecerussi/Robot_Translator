@@ -24,7 +24,7 @@ function whatBotSees(input) {
       whatBotSays.push(num)
     }
   })
-  return whatBotSays.join(", ");
+  return whatBotSays.join(" , ");
   ;
 }
 

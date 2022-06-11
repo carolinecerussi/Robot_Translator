@@ -2,22 +2,26 @@
 <html>
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>MrRoboto</title>
 </head>
 <body>
   <div class="container">
-    <h1>Hello!</h1>
+    <div class="introBlock">
+      <h1>Hello!</h1>
+      <p>I'm Robbi <img src="https://www.kindpng.com/picc/m/13-131392_cartoon-robot-free-vector-transparent-background-robot-clipart.png" alt="robot" width="150">the robot!</p>
+    </div>
       <form id="robot">
-        <div class="robot" id="typein">
-          <h2>Enter in a number</h2>
-          <p>I will translate it to my language!</p>
-            <input type="number" id="input" class="form-control" placeholder="Enter Number Here" required>
+        <div class="greeting" id="typein">
+          <h2>Please enter a number in the form below.</h2>
+            <p>I will translate it to my language!</p>
+         <input type="number" id="input" placeholder="Enter Number Here" required>
         </div>
         <button type="submit" id="submitNum" >Translate to Robot!</button>
       </form>
+
     <div class="result" id="submitResult">
       <div class="textEnter" id="check">
         <h3>You say:</h3>

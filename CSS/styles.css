@@ -2,3 +2,51 @@
   display:none;
 }
 
+body {
+  text-align: center;
+  width:100%;
+  border-style: dashed;
+  border-color: greenyellow;
+  border-width: 5pt;
+  background-color: azure;
+}
+.introBlock {
+  font-family: helvetica;
+  size-adjust: 100%;
+  background-color: white;
+}
+
+.greeting h2{
+  color: rgb(42, 42, 42);
+  font-family:Times, serif;
+  font-size: 20pt;
+}
+.greeting p {
+  font-size: 18pt;
+  font-family:Times, serif;
+}
+
+#input {
+  font-size: 16pt;
+  margin-block: 10pt;
+  border-style:dashed;
+  border-width: 8pt;
+  border-color: greenyellow;
+  background-color: rgb(255, 255, 255);
+  color:rgb(36, 182, 255);
+}
+
+
+button {
+  text-align: center;
+  font-size: 16pt;
+  margin-block:20pt;
+  font-family:helvetica;
+  color: rgb(255, 255, 255);
+  background-color: rgb(139, 189, 92);
+}
+
+html {
+  margin: 5pt;
+  background-color: darkblue;
+}

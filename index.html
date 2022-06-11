@@ -10,28 +10,33 @@
 <body>
   <div class="container">
     <div class="introBlock">
-      <h1>Hello!</h1>
-      <p>I'm Robbi <img src="https://www.kindpng.com/picc/m/13-131392_cartoon-robot-free-vector-transparent-background-robot-clipart.png" alt="robot" width="150">the robot!</p>
-    </div>
+      <h1>Greetings, Human!</h1>
       <form id="robot">
-        <div class="greeting" id="typein">
-          <h2>Please enter a number in the form below.</h2>
-            <p>I will translate it to my language!</p>
-         <input type="number" id="input" placeholder="Enter Number Here" required>
+        <div class="robbi">
+          <p><img id="robot" src="IMG/orange.png" alt="robot" width="350" ></p>
         </div>
-        <button type="submit" id="submitNum" >Translate to Robot!</button>
+        <div class="speechBub">
+          <p><img src="IMG/pngwing.com.png" width="300pt"></p>
+        </div>
+        <div class="greeting" id="typein">
+          <img src="IMG/red.png" alt="red robot" width="300pt">
+          <input type="number" id="input" placeholder="Enter Number Here" required>
+          <button type="submit" id="submitNum" >Translate to Robot!</button>
+        </div>
       </form>
+    </div>
 
     <div class="result" id="submitResult">
       <div class="textEnter" id="check">
-        <h3>You say:</h3>
-        <p><span id="numberEnt"></span></p>
+        <h2><strong>You Say:</strong></h2>
+          <p><span id="numberEnt"></span></p>
+        <h2><strong> I say:</strong></h2>
+          <p<span id="saysBack" ></span></p>
       </div>
-      <div class="saysBack" id="output">
-        <h4>I say:</h4>
-        <p<span id="saysBack" ></span></p>
+      <div class="roboTry" >
+        <img src="IMG/yellow.png" alt="yellowRobot" width="240pt">
+          <button onclick="window.location.reload();" id="reload">Try another number</button> 
       </div>
-      <button onclick="window.location.reload();" id="reload">Try another number</button> 
     </div>
   </div>
 </body>

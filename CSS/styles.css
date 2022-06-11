@@ -1,52 +1,95 @@
 .result#submitResult {
   display:none;
+  font-size: 25pt;;
+  font-style: italic;
+  text-align: auto;
+  margin-block-start: 15%;
+}
+  
+h2 {
+  font-size: 35pt;
+  font-style: normal;
+  color: red;
+  margin-bottom: 25pt;
+
+
+}
+
+
+.textEnter#check {
+  font-size: 30pt;
+  width: 60%;
+  float: left;
+  padding: 40pt;
+  background-color: rgb(255, 255, 14,.4);
+  
+}
+
+.roboTry {
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding: 20pt;
+  margin-top: 10%;
 }
 
 body {
   text-align: center;
   width:100%;
-  border-style: dashed;
-  border-color: greenyellow;
-  border-width: 5pt;
-  background-color: azure;
-}
-.introBlock {
-  font-family: helvetica;
-  size-adjust: 100%;
-  background-color: white;
+  font-family: monospace;
+  background-image: url(/IMG/Lovepik_com-833481321-Creative\ geometric\ vector\ memphis\ style\ commercial\ elements.png);
 }
 
-.greeting h2{
-  color: rgb(42, 42, 42);
-  font-family:Times, serif;
-  font-size: 20pt;
+.greeting {
+   width: 50%;
+  font-family: monospace;
+  float:left;
+  margin-top: 20%;
+
 }
-.greeting p {
-  font-size: 18pt;
-  font-family:Times, serif;
+
+.robbi{
+  width: 20%;
+  float: left;
+  margin-top: 25%;
+
+}
+.speechBub {
+  width: 30%;
+  float: left;
+  margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    margin-top: 30pt;
 }
 
 #input {
-  font-size: 16pt;
+  font-size: 18pt;
   margin-block: 10pt;
-  border-style:dashed;
-  border-width: 8pt;
-  border-color: greenyellow;
-  background-color: rgb(255, 255, 255);
-  color:rgb(36, 182, 255);
+  border-style:dotted;
+  border-color: yellow;
+  border-width: 5pt;
+  color:red;
+  width: 80%;
+  text-align: center;
 }
 
 
+
 button {
-  text-align: center;
-  font-size: 16pt;
+  font-size: 19pt;
   margin-block:20pt;
-  font-family:helvetica;
   color: rgb(255, 255, 255);
-  background-color: rgb(139, 189, 92);
+  background-color: red;
+  width: 80%;
+  text-align: center;
 }
 
 html {
   margin: 5pt;
-  background-color: darkblue;
 }

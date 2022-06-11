@@ -30,6 +30,9 @@ function whatBotSees(input) {
 
 //Loop works in jsFiddle console!//
 
+
+//UI LOGIC/// 
+
 $(document).ready(function() {
   $("form#robot").submit(function(event) {
     event.preventDefault();

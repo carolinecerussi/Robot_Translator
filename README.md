@@ -1,21 +1,24 @@
 
-# Mr Robo
+# Mr Robo 
 
 #### By Caroline Cerussi
 
 #### 
-A webpage where if you enter a number into the input space, the robot will translate it into it's own language using JS code parameters to come up with a string array of translated result.
+A translator application that takes a user's input and outputs a different response.
 
 ## Technologies Used
 
 * html
-* css
-* JS
+* css/boostrap
+* Javascript/JQuery
 
 ## Description
 
+This Webpage allows users to input a number to then get a result in the robotic language. Upon clicking submit, the number will be output a response from a robot, letting you know what the translation would be. There is then another button option that allows you to go back and resubmit a different number. 
 
-describe : inputNumArray()
+## Tests
+
+Describe : inputNumArray()
 -------1-----------
 test: It will return an array of each number between 0 and input. 
 Code: inputNumArray(3);
@@ -47,20 +50,16 @@ expected output : ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5",
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
+* Clone this repository onto your desktop
+* Open repository folder named "Mr. Robo"
+* Open index.html file in browser
 
 ## Known Bugs
  
-none
+ No known Issues
 
 ## License
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+MIT
 
-Copyright june 10 2022 Authorized by Caroline Cerussi
+Copyright (c) JUNE 10 2022 Authorized by Caroline Cerussi

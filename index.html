@@ -9,24 +9,26 @@
 </head>
 <body>
   <div class="container">
-    <h1>Hi There!</h1>
+    <h1>Hello!</h1>
       <form id="robot">
         <div class="robot" id="typein">
-          <h2>Please enter a number!</h2>
-          <p>I will read it back to you in my language!</p>
-            <input type="number" id="input" class="form-control" placeholder="enter your number here" required>
+          <h2>Enter in a number</h2>
+          <p>I will translate it to my language!</p>
+            <input type="number" id="input" class="form-control" placeholder="Enter Number Here" required>
         </div>
         <button type="submit" id="submitNum" >Translate to Robot!</button>
       </form>
+    <div class="result" id="submitResult">
       <div class="textEnter" id="check">
-        <h3>This is your number:</h3>
+        <h3>You say:</h3>
         <p><span id="numberEnt"></span></p>
-        <button onclick="window.location.reload();" id="reload">Re Enter Number</button>
       </div>
       <div class="saysBack" id="output">
-        <h4>Here's what I would say:</h4>
+        <h4>I say:</h4>
         <p<span id="saysBack" ></span></p>
       </div>
+      <button onclick="window.location.reload();" id="reload">Try another number</button> 
+    </div>
   </div>
 </body>
 </html>

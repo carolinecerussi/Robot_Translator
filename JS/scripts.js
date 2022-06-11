@@ -24,9 +24,20 @@ function whatBotSees(input) {
       whatBotSays.push(num)
     }
   })
-  return whatBotSays;
+  return whatBotSays.join(", ");
+  ;
 }
 
 //Loop works in jsFiddle console!//
 
-
+$(document).ready(function() {
+  $("form#robot").submit(function(event) {
+    event.preventDefault();
+    const input = $("#input").val();
+    const output = whatBotSees(input);
+    $("#saysBack").html(output);
+    $("#numberEnt").text(input);
+    $("#robot").hide();
+    $("#submitResult").show();
+  });
+});

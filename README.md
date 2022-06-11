@@ -1,7 +1,19 @@
 
+# Mr Robo
 
-//
-tests
+#### By Caroline Cerussi
+
+#### 
+A webpage where if you enter a number into the input space, the robot will translate it into it's own language using JS code parameters to come up with a string array of translated result.
+
+## Technologies Used
+
+* html
+* css
+* JS
+
+## Description
+
 
 describe : inputNumArray()
 -------1-----------
@@ -31,3 +43,24 @@ Test: As long as the input number doesn't include a 2 or a 3, any number input t
 Code: whatBotSees(14)
 expected output : ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"]
 
+
+
+## Setup/Installation Requirements
+
+* This is a great place
+* to list setup instructions
+* in a simple
+* easy-to-understand
+* format
+
+{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
+
+## Known Bugs
+ 
+none
+
+## License
+
+{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+
+Copyright june 10 2022 Authorized by Caroline Cerussi

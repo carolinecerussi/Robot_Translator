@@ -40,23 +40,24 @@ body {
 }
 
 .greeting {
-   width: 50%;
+   width: 60%;
   font-family: monospace;
-  float:left;
+  float: left;
   margin-top: 20%;
 
 }
 
 .robbi{
-  width: 20%;
+  width: 25%;
   float: left;
   margin-top: 25%;
+  box-sizing: border-box;
 
 }
 .speechBub {
-  width: 30%;
-  float: left;
+  width: 200;
   margin-top: 10%;
+  float: left;
 }
 
 h1 {
@@ -74,7 +75,7 @@ h1 {
   border-color: yellow;
   border-width: 5pt;
   color:red;
-  width: 80%;
+  width: 60%;
   text-align: center;
 }
 
@@ -85,10 +86,11 @@ button {
   margin-block:20pt;
   color: rgb(255, 255, 255);
   background-color: red;
-  width: 80%;
+  width: 50%;
   text-align: center;
 }
 
 html {
-  margin: 5pt;
+  background-image: url(/IMG/back.png);
+  background-size: contain;
 }

@@ -1,10 +1,10 @@
 
 # Mr Robo 
 
-#### By Caroline Cerussi
+#### By Caroline Cerussi & Joe Jack
 
 #### 
-A translator application that takes a user's input and outputs a different response.
+An address directory application that allows the user to add, find and assign a id reference number to the contact. 
 
 ## Technologies Used
 
@@ -18,40 +18,27 @@ This Webpage allows users to input a number to then get a result in the robotic 
 
 ## Tests
 
-Describe : inputNumArray()
+Describe :
 -------1-----------
-test: It will return an array of each number between 0 and input. 
-Code: inputNumArray(3);
-Expected Output:[0, 1, 2, 3]
-
-------2----------
-Test: It will convert inputNum array into a string array and include punctuation.
-code: inputNumArray(4)
-expected output: ["0", "1", "2", "3", "4"]
+test:  
+Code: 
+Expected Output:
 
 
-Describe: WhatBotSees()
+
+Describe: ()
 -------1---------
-Test : It will return any number input that included a 3 as "Won't you be my neighbor?"
-code: WhatBotSees(4)
-expected output : ["0", "1", "2", "Won't you be my neighbor?", "4"]
 
 ------2--------
-Test : As long as the input number doesn't include a 3, any number input that included a 2 will return as "Boop!";
-code: WhatBotSees(4)
-expected output : ["0", "1", "Boop!", "Won't you be my neighbor?", "4"]
+
 
 ------3--------
-Test: As long as the input number doesn't include a 2 or a 3, any number input that included a 1 will return as "Beep!";
-Code: whatBotSees(14)
-expected output : ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"]
-
 
 
 ## Setup/Installation Requirements
 
 * Clone this repository onto your desktop
-* Open repository folder named "Mr. Robo"
+* Open repository folder named "Address Book"
 * Open index.html file in browser
 
 ## Known Bugs
@@ -62,4 +49,4 @@ expected output : ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5",
 
 MIT
 
-Copyright (c) JUNE 10 2022 Authorized by Caroline Cerussi
+Copyright (c) JUNE 13 2022 Authorized by Caroline Cerussi and Joe Jack

@@ -1,10 +1,10 @@
 
 # Mr Robo 
 
-#### By Caroline Cerussi & Joe Jack
+#### By Caroline Cerussi 
 
 #### 
-An address directory application that allows the user to add, find and assign a id reference number to the contact. 
+This webpage takes a users inputted number, then translate and returns it in Mr.Robo's language.
 
 ## Technologies Used
 
@@ -14,32 +14,17 @@ An address directory application that allows the user to add, find and assign a 
 
 ## Description
 
-This Webpage allows users to input a number to then get a result in the robotic language. Upon clicking submit, the number will be output a response from a robot, letting you know what the translation would be. There is then another button option that allows you to go back and resubmit a different number. 
+Using the input space on the web application, write in a number in order to see it in Mr.Robo's language.
+While processing your response, the robotic translation depending on what digit is entered from the user.
 
-## Tests
-
-Describe :
--------1-----------
-test:  
-Code: 
-Expected Output:
-
-
-
-Describe: ()
--------1---------
-
-------2--------
-
-
-------3--------
+You have the option to then submit a new number and start again.
 
 
 ## Setup/Installation Requirements
 
-* Clone this repository onto your desktop
-* Open repository folder named "Address Book"
-* Open index.html file in browser
+1. Clone GitHub repository onto your local desktop: https://github.com/carolinecerussi/Mr.Robo.git
+2. Open directory called Mr.Robo and navigate to the Index.html file 
+3. Open Index.html in browser to run
 
 ## Known Bugs
  
@@ -49,4 +34,4 @@ Describe: ()
 
 MIT
 
-Copyright (c) JUNE 13 2022 Authorized by Caroline Cerussi and Joe Jack
+Copyright (c) JUNE 2022 Authorized by Caroline Cerussi 

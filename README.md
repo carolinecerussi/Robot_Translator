@@ -1,16 +1,16 @@
 
-# Mr Robo 
+# Robot Translator
 
-#### By Caroline Cerussi 
+### By Caroline Cerussi 
 
 #### 
-This webpage takes a users inputted number, then translate and returns it in Mr.Robo's language.
+Translate an inputted number to robot's language output
 
 ## Technologies Used
-
 * html
-* css/boostrap
+* css/bootstrap
 * Javascript/JQuery
+* git
 
 ## Description
 
@@ -19,11 +19,10 @@ While processing your response, the robotic translation depending on what digit 
 
 You have the option to then submit a new number and start again.
 
-
 ## Setup/Installation Requirements
 
-1. Clone GitHub repository onto your local desktop: https://github.com/carolinecerussi/Mr.Robo.git
-2. Open directory called Mr.Robo and navigate to the Index.html file 
+1. Clone GitHub repository onto your local desktop: https://github.com/carolinecerussi/Robot_Translator.git
+2. Open directory called Robot_Translator and navigate to the Index.html file 
 3. Open Index.html in browser to run
 
 ## Known Bugs
@@ -34,4 +33,4 @@ You have the option to then submit a new number and start again.
 
 MIT
 
-Copyright (c) JUNE 2022 Authorized by Caroline Cerussi 
+Copyright (c) JAN 2023 Authorized by Caroline Cerussi 

@@ -1,96 +1,117 @@
 .result#submitResult {
   display:none;
-  font-size: 25pt;;
   font-style: italic;
-  text-align: auto;
-  margin-block-start: 15%;
+  color: red;
+  text-align: center;
+  width: 100%;
 }
   
 h2 {
-  font-size: 35pt;
+margin-top: 10%;
+margin-bottom: 20pt;
+  font-size: 45pt;
   font-style: normal;
   color: red;
-  margin-bottom: 25pt;
-
+  align-items: center;
 
 }
 
+p#welcome{
+  width: 40%;
+  background-color: rgba(255, 0, 0, 0.719);
+  border-radius: 30pt;
+  float:left;
+  color: white;
+  margin-top: 15pt;
+  margin-right: 9%;
+  margin-left: 5%;
+  padding: 30px;
+  line-height: 25pt;
+  height: 250px;
+  font-size: 20pt;
+}
+
+img#titleRobot{
+  margin-top: 5%;
+  margin-left: 0%;
+}
 
 .textEnter#check {
-  font-size: 30pt;
-  width: 60%;
+  margin: 5%;
+  font-size: 25pt;
+  float:left;
+  width:100%;
+
+}
+
+.roboTranslate {
   float: left;
-  padding: 40pt;
-  background-color: rgb(255, 255, 14,.4);
-  
 }
 
 .roboTry {
-  float: left;
-  width: 40%;
-  text-align: center;
-  padding: 20pt;
-  margin-top: 10%;
+  width: 100%;
+  margin-block: 10pt;
+  margin-top: 5%;;
 }
 
 body {
-  text-align: center;
-  font-family: monospace;
-  background-image: url(/IMG/back.png);
+ align-items: center;
+  font-family:'CallingCode-Regular';
+  background-color: transparent;
+  width: 100%;
 }
 
 .greeting {
-   width: 60%;
-  font-family: monospace;
-  float: left;
-  margin-top: 20%;
-
+   width: 100%;
+   font-family:'Press Start 2P'; cursive; 
 }
 
 .robbi{
-  width: 25%;
-  float: left;
-  margin-top: 25%;
   box-sizing: border-box;
-
-}
-.speechBub {
-  width: 200;
-  margin-top: 10%;
-  float: left;
+  float:right;
 }
 
 h1 {
-    text-align: center;
-    padding: 20px;
-    color: black;
-    width: 100%;
-    margin-top: 30pt;
+  text-align:right;
+    color: rgb(255, 187, 0);
+    margin-bottom: 10%;
+    font-size: 100px;
+    font-family: 'futurespore';
 }
 
 #input {
-  font-size: 18pt;
-  margin-block: 10pt;
-  border-style:dotted;
-  border-color: yellow;
-  border-width: 5pt;
-  color:red;
-  width: 60%;
+  font-size: auto;
   text-align: center;
+  border-radius: 30px;
+  color:white;
+  background-color: rgba(255, 0, 0, 0.804);
+  width: 30%;
+  font-size: 30pt;
+  border-color: transparent;
+  margin-top: 15%;
+  margin-right: 25%;
+  padding: 3px;
+  height: 80px;
+  float: right;
 }
-
 
 
 button {
-  font-size: 19pt;
+  font-size: 25pt;
   margin-block:20pt;
-  color: rgb(255, 255, 255);
-  background-color: red;
-  width: 50%;
-  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color:transparent;
+  width: 100%;
+  border-color: transparent;
+}
+button#submitNum {
+  color:rgb(15, 63, 236);
+  font-size: 30pt;
+  margin-top: 10%;
 }
 
 html {
-  background-image: url(/IMG/back.png);
-  background-size: contain;
+  background-image: url(/IMG/primary2.png);
+  background-size: cover;
 }
+

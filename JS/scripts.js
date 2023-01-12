@@ -15,16 +15,16 @@ function whatBotSees(input) {
   let whatBotSays = [];
   newNumArray.forEach(function(num) {
     if (num.includes(3)) {
-      whatBotSays.push("Won't you be my neighbor?")
+      whatBotSays.push("Deeeee")
     } else if (num.includes(2)) {
       whatBotSays.push("Boop!")
     } else if (num.includes(1)){
       whatBotSays.push("Beep!")
     } else {
-      whatBotSays.push(num)
+      whatBotSays.push("Skirrr")
     }
   })
-  return whatBotSays.join(" , ");
+  return whatBotSays.join(" ... ");
   ;
 }
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
     const output = whatBotSees(input);
     $("#saysBack").html(output);
     $("#numberEnt").text(input);
-    $("#robot").hide();
+    $("#robotPage").hide();
     $("#submitResult").show();
   });
 });

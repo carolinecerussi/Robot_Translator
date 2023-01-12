@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
   <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
   <script src="JS/jquery-3.6.0.js"></script>
   <script src="JS/scripts.js"></script>
-  <title>MrRoboto</title>
+  <title>Robot Translator</title>
 </head>
 <body>
   <div class="container">
-    <div class="introBlock">
-      <h1>Greetings, Human!</h1>
-      <form id="robot">
+    <div class="introBlock" id="robotPage">
+      <div class="wheelRobot">
+        <h1> <img id="titleRobot" src="/IMG/IMG_8315.PNG" alt="title robot" width="200">
+             Robot Translator
+          </h1>
+      </div>
         <div class="robbi">
-          <p><img id="robot" src="IMG/orange.png" alt="robot" width="350" ></p>
-        </div>
-        <div class="speechBub">
-          <p><img src="IMG/pngwing.com.png" width="300pt"></p>
-        </div>
-        <div class="greeting" id="typein">
-          <img src="IMG/red.png" alt="red robot" width="300pt">
-          <input type="number" id="input" placeholder="Enter Number Here" required>
-          <button type="submit" id="submitNum" >Translate to Robot!</button>
-        </div>
+          <p id="welcome">
+            Hi there! My name is Robbi the Robot. Please enter a number below, and see how it translates into my language.
+          
+          </p> 
+          <img id="robot" src="/IMG//IMG_8304.PNG" alt="robi robot" width="300" >
+          
+      <form id="robot">  
+        <input type="number" id="input" placeholder="Your Number" required>
+          <img src="/IMG/IMG_8316.PNG" alt="cute eye robot" width="400" >
+          <button type="submit" id="submitNum"><img src="/IMG/IMG_8306.PNG" alt="serious robot" width="300" >
+            Translate to Robot! </button>
       </form>
-    </div>
-
+      </div>
+</div>
     <div class="result" id="submitResult">
       <div class="textEnter" id="check">
-        <h2><strong>You Say:</strong></h2>
-          <p><span id="numberEnt"></span></p>
-        <h2><strong> I say:</strong></h2>
-          <p<span id="saysBack" ></span></p>
-      </div>
+        <h2><strong>You say:</strong></h2>
+        <br>
+          <p><img src="/IMG/IMG_8309.PNG" alt="cute yellow robot" width="200"> 
+            <span id="numberEnt"></span>
+          </p>
+
+        <h2><strong> I say:</strong>  
+  <img src="/IMG/IMG_8314.PNG" alt="eye roll robot" width="200"> 
+        </h2>
+        <br>
+
+          <p>
+          <span id="saysBack" >
+          </span>
+
+        </p>
+        <br>
       <div class="roboTry" >
-        <img src="IMG/yellow.png" alt="yellowRobot" width="240pt">
-          <button onclick="window.location.reload();" id="reload">Try another number</button> 
-      </div>
+          <button onclick="window.location.reload();" id="reload"> RESTART
+          <img src="/IMG/IMG_8311.PNG" alt="cute blue robot" width="200" >
+        </button> 
+        </div>
+
+
+        </div>
     </div>
   </div>
 </body>

@@ -9,7 +9,7 @@ h2 {
 margin-top: 5%;
   font-size: 55pt;
   font-style: normal;
- color: rgb(59, 31, 88);
+ color: rgb(255, 255, 255);
 justify-content: center;
 width: 100%;
 display:grid;
@@ -113,7 +113,6 @@ button {
 text-align: center;
 justify-content: center;
 margin-bottom: 10%;
-margin-left: 10%;
 }
 
 

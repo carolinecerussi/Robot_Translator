@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Bungee+Hairline&family=Caprasimo&family=Codystar:wght@300;400&family=Coiny&family=Londrina+Outline&family=Major+Mono+Display&family=VT323&display=swap');
+
+
 .result#submitResult {
   display:none;
-  font-style: italic;
  color: rgba(255, 255, 255, 0.891);
   text-align: center;
+  font-family: 'VT323';
+  margin-top: 2%;
+font-size: 25pt;
 }
-  
+
 h2 {
 margin-top: 5%;
   font-size: 55pt;
@@ -12,7 +17,7 @@ margin-top: 5%;
  color: rgb(255, 255, 255);
 justify-content: center;
 width: 100%;
-display:grid;
+display:block;
 }
 
 p#welcome{
@@ -31,6 +36,7 @@ p#welcome{
 .wheelRobot h1{
 display:block;
 justify-content: center;
+font-family: 'Bagel Fat One';
 }
 
 body{
@@ -43,7 +49,6 @@ body{
   display: inline-flex;
   width: 35%;
   float: left;
-
 
 }
 
@@ -64,11 +69,8 @@ body{
 margin-top: 5%;;
 }
 
-
-
-.greeting {
-   width: 100%;
-   font-family:'Press Start 2P'; 
+.wheelRobot {
+  font-family: 'VT323';
 }
 
 .robbi{
@@ -83,7 +85,6 @@ h1 {
     float: left;
     margin-top: 13%;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input {
@@ -91,15 +92,17 @@ input {
   text-align: center;
   border-radius: 10pt;
   color:rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.998);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 20%;
   border-color: transparent;
   padding: 1px;
-  height: 70px;
+  height: 50px;
   margin-right: 45%;
-  margin-top: 12%;
+  margin-top: 10%;
   float: right;
   margin-bottom: 20%;
+  font-family: 'VT323';
+  justify-content: center;
 
 }
 img {
@@ -107,12 +110,14 @@ img {
 }
 
 button {
-  font-size: 25pt;
+  font-size: 35pt;
   background-color:transparent;
   border-color: transparent;
 text-align: center;
 justify-content: center;
 margin-bottom: 10%;
+font-family: 'VT323';
+color:rgb(255, 225, 0);
 }
 
 
@@ -123,16 +128,17 @@ html {
 
 p#welcome {
   width: 25%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10pt;
   color: black;
   margin-top: 15pt;
-  line-height: 20pt;
-  font-size: 13pt;
+  line-height: 18pt;
+  font-size: 15pt;
   height:fit-content;
   float: left;
   margin-left: 35%;
   margin-top: 5%;
   margin-bottom:5%;
+  font-family: 'VT323';
   
 }

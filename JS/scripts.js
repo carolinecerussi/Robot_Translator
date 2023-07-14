@@ -1,6 +1,6 @@
 function inputNumArray(input) {
   const inputNum = [];
-  for (let i=0; i <= input; i++) {
+  for (let i=1; i <= input; i++) {
     inputNum.push(i);
   }
   const newNumArray = inputNum.toString().split(",");
@@ -17,30 +17,32 @@ function whatBotSees(input) {
     if (num.includes(3)) {
       whatBotSays.push("Deeeee")
     } else if (num.includes(2)) {
-      whatBotSays.push("Boop!")
+      whatBotSays.push("Blooop")
     } else if (num.includes(1)){
-      whatBotSays.push("Beep!")
+      whatBotSays.push("Beeep")
+    } else if (num.includes(4)){
+      whatBotSays.push("Skurrr")
+    } else if (num.includes(5)){
+      whatBotSays.push("Dzooo")
     } else {
-      whatBotSays.push("Skirrr")
+      whatBotSays.push("Shooop")
     }
   })
   return whatBotSays.join(" ... ");
   ;
 }
 
-//Loop works in jsFiddle console!//
-
-
 //UI LOGIC/// 
 
 $(document).ready(function() {
-  $("form#robot").submit(function(event) {
+  $("form").submit(function(event) {
     event.preventDefault();
-    const input = $("#input").val();
+    const input = $("input").val();
     const output = whatBotSees(input);
     $("#saysBack").html(output);
     $("#numberEnt").text(input);
-    $("#robotPage").hide();
-    $("#submitResult").show();
+    $(".welcomeRobot").hide();
+    $("form").hide();
+    $(".result").show();
   });
 });

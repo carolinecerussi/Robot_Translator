@@ -1,68 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Bungee+Hairline&family=Caprasimo&family=Codystar:wght@300;400&family=Coiny&family=Londrina+Outline&family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300&family=Bad+Script&family=Bagel+Fat+One&family=Barlow:wght@200&family=Belanosima&family=Bungee+Hairline&family=Caprasimo&family=Codystar:wght@300;400&family=Coiny&family=Knewave&family=Londrina+Outline&family=Major+Mono+Display&family=Sniglet:wght@400;800&family=VT323&display=swap"
+    rel="stylesheet">
+
   <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
   <script src="JS/jquery-3.6.0.js"></script>
   <script src="JS/scripts.js"></script>
   <title>Robot Ramble</title>
 </head>
+
 <body>
   <div class="container">
-    <div class="introBlock" id="robotPage">
-      <div class="wheelRobot">
-    <span> <img id="titleRobot" src="../Robot_Translator/IMG/IMG_8315.PNG" alt="title robot">
-      <h1>Robot Ramble</h1>   
-    </span>
-      </div>
-        <div class="robbi">
-          <p id="welcome">
-            Hi there! My name is Robbi the Robot. Please enter a number below, and see how it translates into my language.
-          </p> 
-          <img id="robot" src="./IMG/IMG_8304.PNG" alt="robi robot" width="25%" >
-          
-
-      <form id="robot">  
-        <input type="number" id="input" placeholder="Your Number" required>
-          <img src="./IMG/IMG_8316.PNG" alt="cute eye robot" width="25%" />
-          <button type="submit" id="submitNum">
-            <img src="./IMG/IMG_8308.PNG" alt="cute blue robot" width="25%" />
-           Translate </button>
-      </form>
-      </div>
-</div>
-    <div class="result" id="submitResult">
-      <div class="textEnter" id="check">
-        <h2><strong>You say:</strong></h2>
-        <br>
-        <h2> <span id="numberEnt"></span></h2>
-      <img src="./IMG/IMG_8309.PNG" alt="cute yellow robot" width="25%"> 
-
-        <h2><strong> I say:</strong>     </h2>
-  <img src="./IMG/IMG_8314.PNG" alt="eye roll robot" width="25%"> 
-     
-        <br>
-
-          <p>
-          <span id="saysBack" >
-          </span>
-
-        </p>
-        <br>
-      <div class="roboTry" >
-          <button onclick="window.location.reload();" id="reload"> <p>RESTART</p> 
-       </button> 
-        </div>
-
-
-        </div>
+    <header id="headerStyle">
+      <span> <img id="titleRobot" src="../Robot_Translator/IMG/IMG_8315.PNG" alt="title robot" />
+        Robot Ramble
+      </span>
+    </header>
+    <div class="welcomeRobot">
+      <p>
+        Greetings! My name is Robbi the Robot.<br /> Enter a number below, to see how it translates to my language.
+      </p>
+      <img id="robot" src="./IMG/IMG_8304.PNG" alt="robi robot" width="20%" />
     </div>
+
+    <form id="inputNumber">
+      <img src="./IMG/IMG_8316.PNG" alt="yellow lego hand robot" width="20%" />
+      <input type="number" placeholder="Your #" required>
+
+      <button type="submit">
+        <img src="./IMG/IMG_8308.PNG" alt="cute red robot" width="20%" />
+        Translate </button>
+    </form>
+<br />
+
+    <div class="result">
+      <div id="youSaidStyle">
+        <img src="./IMG/IMG_8309.PNG" alt="cute yellow robot" width="20%">
+        <h1>You Said: <span id="numberEnt"></span></h1>
+     
+      </div>
+      <div id="weSayStyle">
+
+        <h1>We Say:</h1>
+        <img src="./IMG/IMG_8314.PNG" alt="eye roll robot" width="20%">
+        <p>
+          <span id="saysBack">
+          </span>
+        </p>
+        
+      </div>
+
+    <button onclick="window.location.reload();" id="reload">
+      <p>RESTART</p>
+    </button>
+</div>
+
+
+  </div>
+  </div>
   </div>
 </body>
+
 </html>

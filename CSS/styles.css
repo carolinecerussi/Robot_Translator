@@ -1,24 +1,22 @@
 .result#submitResult {
   display:none;
   font-style: italic;
-  color: red;
+ color: rgba(29, 63, 100, 0.891);
   text-align: center;
-  width: 100%;
 }
   
 h2 {
-margin-top: 10%;
-margin-bottom: 20pt;
-  font-size: 45pt;
+margin-top: 5%;
+  font-size: 55pt;
   font-style: normal;
-  color: red;
-  align-items: center;
-
+ color: rgb(59, 31, 88);
+justify-content: center;
+width: 100%;
+display:grid;
 }
 
 p#welcome{
   width: 40%;
-  background-color: rgba(255, 0, 0, 0.719);
   border-radius: 30pt;
   float:left;
   color: white;
@@ -30,19 +28,33 @@ p#welcome{
   height: 250px;
   font-size: 20pt;
 }
+.wheelRobot h1{
+display:block;
+justify-content: center;
+}
 
+body{
+  width:100vw;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+background-color: rgba(255, 255, 255, 0.214);}
 img#titleRobot{
-  margin-top: 5%;
-  margin-left: 0%;
+
+  display: inline-flex;
+  width: 35%;
+  float: left;
+
+
 }
 
 .textEnter#check {
-  margin: 5%;
-  font-size: 25pt;
+  font-size: 15pt;
   float:left;
   width:100%;
-
+  
 }
+
 
 .roboTranslate {
   float: left;
@@ -50,68 +62,74 @@ img#titleRobot{
 
 .roboTry {
   width: 100%;
-  margin-block: 10pt;
-  margin-top: 5%;;
+margin-top: 5%;;
 }
 
-body {
- align-items: center;
-  font-family:'CallingCode-Regular';
-  background-color: transparent;
-  width: 100%;
-}
+
 
 .greeting {
    width: 100%;
-   font-family:'Press Start 2P'; cursive; 
+   font-family:'Press Start 2P'; 
 }
 
 .robbi{
-  box-sizing: border-box;
   float:right;
+  display: inline;
 }
 
 h1 {
   text-align:right;
-    color: rgb(255, 187, 0);
-    margin-bottom: 10%;
-    font-size: 100px;
-    font-family: 'futurespore';
+    color: rgb(0, 0, 0);
+    font-size: 75pt;
+    float: left;
+    margin-top: 13%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#input {
-  font-size: auto;
+input {
+  font-size: 20pt;
   text-align: center;
-  border-radius: 30px;
-  color:white;
-  background-color: rgba(255, 0, 0, 0.804);
-  width: 30%;
-  font-size: 30pt;
+  border-radius: 10pt;
+  color:rgb(0, 0, 0);
+  background-color: rgba(255, 234, 0, 0.998);
+  width: 20%;
   border-color: transparent;
-  margin-top: 15%;
-  margin-right: 25%;
-  padding: 3px;
-  height: 80px;
+  padding: 1px;
+  height: 70px;
+  margin-right: 45%;
+  margin-top: 12%;
   float: right;
 }
-
+img {
+  float: left;
+  
+}
 
 button {
   font-size: 25pt;
-  margin-block:20pt;
-  color: rgb(0, 0, 0);
   background-color:transparent;
-  width: 100%;
   border-color: transparent;
-}
-button#submitNum {
-  color:rgb(15, 63, 236);
-  font-size: 30pt;
-  margin-top: 10%;
-}
+  float: left;
+  justify-content: center;
+margin-top: 20%;}
+
 
 html {
-  background-image: url(/IMG/primary2.png);
-  background-size: cover;
+  background-image: url(../IMG/primary2.png);
+  background-size: contain;
 }
 
+p#welcome {
+  width: 25%;
+  background-color: rgb(253, 78, 72);
+  border-radius: 10pt;
+  color: white;
+  margin-top: 15pt;
+  line-height: 16pt;
+  font-size: 15pt;
+  height:fit-content;
+  float: left;
+  margin-left: 35%;
+  margin-top: 3%;
+}

@@ -1,7 +1,7 @@
 .result#submitResult {
   display:none;
   font-style: italic;
- color: rgba(29, 63, 100, 0.891);
+ color: rgba(255, 255, 255, 0.891);
   text-align: center;
 }
   
@@ -35,11 +35,10 @@ justify-content: center;
 
 body{
   width:100vw;
-  text-align: center;
-  justify-content: center;
   display: grid;
-background-color: rgba(255, 255, 255, 0.214);}
-img#titleRobot{
+  background-color: rgba(58, 24, 24, 0.231);
+}
+  img#titleRobot{
 
   display: inline-flex;
   width: 35%;
@@ -92,7 +91,7 @@ input {
   text-align: center;
   border-radius: 10pt;
   color:rgb(0, 0, 0);
-  background-color: rgba(255, 234, 0, 0.998);
+  background-color: rgba(255, 255, 255, 0.998);
   width: 20%;
   border-color: transparent;
   padding: 1px;
@@ -100,36 +99,41 @@ input {
   margin-right: 45%;
   margin-top: 12%;
   float: right;
+  margin-bottom: 20%;
+
 }
 img {
-  float: left;
-  
+  justify-content: center;
 }
 
 button {
   font-size: 25pt;
   background-color:transparent;
   border-color: transparent;
-  float: left;
-  justify-content: center;
-margin-top: 20%;}
+text-align: center;
+justify-content: center;
+margin-bottom: 10%;
+margin-left: 10%;
+}
 
 
 html {
   background-image: url(../IMG/primary2.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 p#welcome {
   width: 25%;
-  background-color: rgb(253, 78, 72);
+  background-color: rgb(255, 255, 255);
   border-radius: 10pt;
-  color: white;
+  color: black;
   margin-top: 15pt;
-  line-height: 16pt;
-  font-size: 15pt;
+  line-height: 20pt;
+  font-size: 13pt;
   height:fit-content;
   float: left;
   margin-left: 35%;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom:5%;
+  
 }
